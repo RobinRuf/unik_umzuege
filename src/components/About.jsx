@@ -7,30 +7,38 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            About
+            Über uns
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius,
-          deserunt illum mollitia officiis qui exercitationem perferendis neque
-          quasi a recusandae necessitatibus tempora iusto! Blanditiis error
-          iste, totam fugiat recusandae rerum laborum perferendis molestiae
-          aperiam asperiores nemo. Magni dolor maxime debitis vitae, eaque hic
-          ab mollitia voluptatibus, a nostrum eveniet laborum!
+        <p className="text-xl mt-14">
+          Die Unik Umzüge GmbH ist seit vielen Jahren erfolgreich in den Bereichen Umzüge, Transporte, 
+          Entsorgungen und Räumungen tätig. Bei uns steht die Kundenzufriedenheit an erster Stelle. 
+          Jeder Umzug ist so einzigartig. Als Kunde erhalten Sie stets unsere volle 
+          Aufmerksamkeit. <br /> <br />
+          Und da Sie als Kunde uns so wichtig sind, stellen wir Ihnen folgendes vor...
         </p>
-
         <br />
 
+        <div>
+          <p className="text-2xl font-bold inline border-b-4 border-gray-500">
+            Das Rund-Um-Sorlos - Paket
+          </p>
+        </div>
+        
+        <br />
         <p className="text-xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-          pariatur, vel similique sint, nobis aspernatur ut praesentium
-          explicabo ipsam aliquid quasi laboriosam et culpa possimus repudiandae
-          quisquam ullam maiores ab unde. Fugiat odio mollitia nemo alias.
-          Commodi facilis atque nulla vero voluptatem explicabo. Quibusdam,
-          magni quo! Eum cupiditate debitis labore.
+          ...und dieser Name ist Programm! <br />
+          Bei Annahme dieser Offerte stehen Ihnen alle Ressourcen zur Verfügung 
+          - und das <span className="border-b-4 border-gray-500 font-bold">kostenlos!</span> <br /><br />
+          • verschiedene Kartonboxen <br />
+          • Luftpolsterfolie <br />
+          • Seidenpapier <br /><br />
+          Und das Beste: Alles wird von uns vor dem Umzug zu Ihnen nach Hause geliefert! <br />
+          Nach dem Umzug können Sie in Ruhe die Kartons auspacken. Sobald Sie fertig sind 
+          rufen Sie uns an und wir kommen diese bei Ihnen abholen.
         </p>
       </div>
     </div>
