@@ -8,23 +8,19 @@ const NavBar = () => {
   const links = [
     {
       id: 1,
-      link: "home",
+      link: "startseite",
     },
     {
       id: 2,
-      link: "about",
+      link: "über uns",
     },
     {
       id: 3,
-      link: "portfolio",
+      link: "dienstleistungen",
     },
     {
       id: 4,
-      link: "experience",
-    },
-    {
-      id: 5,
-      link: "contact",
+      link: "kontakt",
     },
   ];
 
