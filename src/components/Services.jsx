@@ -42,11 +42,11 @@ const Services = () => {
           <br /> Klicken Sie eine Box an, um mehr zu erfahren.</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
+        <div className="w-full grid grid-cols-1 lg:grid-cols-3 sm:grid-cols-2 gap-8 text-center py-8 px-12 sm:px-0">
           {services.map(({ id, title, desc, style }) => (
             <div
               key={id}
-              className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
+              className={`shadow-md hover:scale-105 duration-500 py-2 max-w-sm mx-auto rounded-lg ${style}`}
             >
               <p className="underline font-bold">{title}</p>
               <p className="text-sm pt-2 mx-4 text-left">{desc}</p>
