@@ -17,7 +17,7 @@ const About = () => {
         <p className="text-xl mt-14">
           Die Unik Umzüge GmbH ist seit vielen Jahren erfolgreich in den Bereichen Umzüge, Transporte, 
           Entsorgungen und Räumungen tätig. Bei uns steht die Kundenzufriedenheit an erster Stelle. 
-          Jeder Umzug ist so einzigartig. Als Kunde erhalten Sie stets unsere volle 
+          Jeder Umzug ist einzigartig. Als Kunde erhalten Sie stets unsere volle 
           Aufmerksamkeit. <br /> <br />
           Und da Sie als Kunde uns so wichtig sind, stellen wir Ihnen folgendes vor...
         </p>
@@ -25,7 +25,7 @@ const About = () => {
 
         <div>
           <p className="text-2xl font-bold inline border-b-4 border-gray-500">
-            Das Rund-Um-Sorlos - Paket
+            Das Rund-Um-Sorglos - Paket
           </p>
         </div>
         
@@ -36,7 +36,8 @@ const About = () => {
           - und das <span className="border-b-4 border-gray-500 font-bold">kostenlos!</span> <br /><br />
           • verschiedene Kartonboxen <br />
           • Luftpolsterfolie <br />
-          • Seidenpapier <br /><br />
+          • Seidenpapier <br />
+          • Klebeband <br /><br />
           Und das Alles wird kostenlos zu Ihnen nach Hause geliefert und nach dem erfolgreichen
           Umzug auch wieder von uns abgeholt!
         </p>
