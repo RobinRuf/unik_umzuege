@@ -12,8 +12,8 @@ const MobileSocialLinks = () => {
           Anrufen <FaPhone size={30} />
         </>
       ),
-      href: "https://www.facebook.com/unikumzuege",
-      style: "rounded-tr-md",
+      href: "tel:0616918080",
+      style: "flex text-white rounded-tl-md items-center",
     },
     {
       id: 2,
@@ -22,26 +22,19 @@ const MobileSocialLinks = () => {
           WhatsApp <FaWhatsapp size={30} />
         </>
       ),
-      href: "https://www.facebook.com/unikumzuege",
-      style: "rounded-br-md",
+      href: "https://api.whatsapp.com/send?phone=0041786019466",
+      style: "flex text-white rounded-tr-md text-right items-center ",
     },
   ];
 
   return (
-    <div className="flex bottom-0 fixed md:hidden">
-      <div>
+    <div className="flex-1 w-full bottom-0 fixed md:hidden">
+      <div className="flex items-center h-14 px-4 bg-gray-500 rounded-lg justify-between px-10">
         {links.map(({ id, child, href, style }) => (
-          <div
-            key={id}
-            className={
-              "flex justify-between items-center w-40 h-14 px-4 bg-gray-500" +
-              " " +
-              style
-            }
-          >
+          <div key={id}>
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className={style}
               target="_blank"
               rel="noreferrer"
             >
