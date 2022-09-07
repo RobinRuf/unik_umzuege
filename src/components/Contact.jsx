@@ -44,7 +44,6 @@ const Contact = () => {
             <input
               type="text"
               name="Umzugsdatum"
-              required
               placeholder="Umzugsdatum (optional)"
               className="mt-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
@@ -52,14 +51,12 @@ const Contact = () => {
             <input
               type="text"
               name="Auszug Ort"
-              required
               placeholder="von Ort? (optional)"
               className="mt-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="text"
               name="Einzug Ort"
-              required
               placeholder="nach Ort? (optional)"
               className="mt-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
