@@ -17,7 +17,7 @@ const Services = () => {
     {
       id: 3,
       title: "Entsorgungen",
-      desc: "Entsorgungen sind immer lästig. Egal ob im Rahmen eines Umzugs oder ob Sie einfach ein altes schweres Möbelstück nicht mehr benötigen. Wir übernehmen dies gerne für! Wir haben einige der grössten Entsorgungsstätten der Schweiz als Partner und können Ihnen dadurch die günstigsten Konditionen für die Entsorgung garantieren.",
+      desc: "Entsorgungen sind immer lästig. Egal ob im Rahmen eines Umzugs oder ob Sie einfach ein altes schweres Möbelstück nicht mehr benötigen. Wir übernehmen dies gerne für Sie! Wir haben einige der grössten Entsorgungsstätten der Schweiz als Partner und können Ihnen dadurch die günstigsten Konditionen für die Entsorgung garantieren.",
       style: "shadow-white",
     },
     {
