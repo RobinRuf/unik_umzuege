@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import SocialLinks from "./components/SocialLinks";
 import MobileSocialLinks from "./components/MobileSocialLinks";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Services />
       <Contact />
+      <Footer />
 
       <SocialLinks />
       <MobileSocialLinks />
