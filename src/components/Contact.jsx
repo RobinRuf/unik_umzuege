@@ -47,7 +47,7 @@ const Contact = () => {
               placeholder="Umzugsdatum (optional)"
               className="mt-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
-            <div className="flex w-full justify-between">
+            <div className="flex flex-col lg:flex-row w-full  justify-between">
             <input
               type="text"
               name="Auszug Ort"
