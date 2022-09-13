@@ -22,13 +22,13 @@ const MobileSocialLinks = () => {
           WhatsApp <FaWhatsapp size={30} />
         </>
       ),
-      href: "https://api.whatsapp.com/send?phone=0041786019466",
+      href: "https://wa.me/41786019466",
       style: "flex text-white rounded-tr-md text-right items-center ",
     },
   ];
 
   return (
-    <div className="flex-1 w-full bottom-0 fixed md:hidden">
+    <div className="flex-1 w-full bottom-0 fixed sm:hidden">
       <div className="flex items-center h-14 px-4 bg-gray-500 rounded-lg justify-between px-10">
         {links.map(({ id, child, href, style }) => (
           <div key={id}>

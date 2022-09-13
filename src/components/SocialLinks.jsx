@@ -1,7 +1,6 @@
 import React from "react";
 import { FaGithub, FaFacebook } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const SocialLinks = () => {
   const links = [
@@ -28,7 +27,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="hidden md:flex flex-col top-[35%] left-0 fixed">
+    <div className="hidden sm:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
